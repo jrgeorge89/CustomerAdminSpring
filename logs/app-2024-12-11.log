@@ -1,0 +1,285 @@
+2024-12-11 16:39:47 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 16:39:47 INFO  c.a.c.CustomerApplicationTests - Starting CustomerApplicationTests using Java 17.0.9 with PID 9088 (started by JRincon in D:\Documentos\NetBeansProjects\customer)
+2024-12-11 16:39:47 DEBUG c.a.c.CustomerApplicationTests - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-12-11 16:39:47 INFO  c.a.c.CustomerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 16:39:53 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 16:39:53 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-12-11 16:39:54 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 16:39:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 16:39:55 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-12-11 16:39:55 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 16:39:55 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-11 16:39:57 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 16:39:59 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 16:40:03 INFO  c.a.c.CustomerApplicationTests - Started CustomerApplicationTests in 17.515 seconds (process running for 21.484)
+2024-12-11 16:40:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 16:40:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 16:40:55 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 16:40:55 INFO  c.admin.customer.CustomerApplication - Starting CustomerApplication using Java 17.0.9 with PID 13864 (D:\Documentos\NetBeansProjects\customer\target\classes started by JRincon in D:\Documentos\NetBeansProjects\customer)
+2024-12-11 16:40:55 DEBUG c.admin.customer.CustomerApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-12-11 16:40:55 INFO  c.admin.customer.CustomerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 16:41:03 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-11 16:41:03 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 16:41:03 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-12-11 16:41:03 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 16:41:04 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 16:41:04 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-12-11 16:41:04 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 16:41:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 16:41:05 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-12-11 16:41:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 16:41:05 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-11 16:41:08 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 16:41:10 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 16:41:14 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-11 16:41:14 INFO  c.admin.customer.CustomerApplication - Started CustomerApplication in 20.368 seconds (process running for 21.541)
+2024-12-11 16:42:39 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 16:42:39 INFO  c.a.c.c.CustomerRestController - Fetching all customers
+2024-12-11 16:42:39 INFO  c.a.customer.service.CustomerService - Fetching all customers
+2024-12-11 16:42:40 INFO  c.a.c.c.CustomerRestController - Number of customers fetched: 0
+2024-12-11 16:42:50 INFO  c.a.c.c.CustomerRestController - Creating customer with username: john_doe
+2024-12-11 16:42:50 INFO  c.a.customer.service.CustomerService - Saving customer: Customer(id=null, userName=john_doe, name=John Doe, phone=123456789, email=johndoe@example.com, startDate=2024-01-01, endDate=2024-12-31)
+2024-12-11 16:42:59 INFO  c.a.c.c.CustomerRestController - Updating customer with ID: 1
+2024-12-11 16:42:59 INFO  c.a.customer.service.CustomerService - Fetching customer by ID: 1
+2024-12-11 16:42:59 INFO  c.a.customer.service.CustomerService - Saving customer: Customer(id=1, userName=jane_doe, name=Jane Doe, phone=987654321, email=janedoe@example.com, startDate=2024-01-01, endDate=2024-12-31)
+2024-12-11 16:42:59 INFO  c.a.c.c.CustomerRestController - Customer updated: Customer(id=1, userName=jane_doe, name=Jane Doe, phone=987654321, email=janedoe@example.com, startDate=2024-01-01, endDate=2024-12-31)
+2024-12-11 16:43:02 INFO  c.a.c.c.CustomerRestController - Fetching all customers
+2024-12-11 16:43:02 INFO  c.a.customer.service.CustomerService - Fetching all customers
+2024-12-11 16:43:02 INFO  c.a.c.c.CustomerRestController - Number of customers fetched: 1
+2024-12-11 16:43:04 INFO  c.a.c.c.CustomerRestController - Fetching customer with ID: 1
+2024-12-11 16:43:04 INFO  c.a.customer.service.CustomerService - Fetching customer by ID: 1
+2024-12-11 16:43:04 INFO  c.a.c.c.CustomerRestController - Customer found: Customer(id=1, userName=jane_doe, name=Jane Doe, phone=987654321, email=janedoe@example.com, startDate=2024-01-01, endDate=2024-12-31)
+2024-12-11 16:43:07 INFO  c.a.c.c.CustomerRestController - Performing advanced search with parameters - userName: jane_doe, name: null, phone: null, email: null, startDate: null, endDate: null
+2024-12-11 16:43:07 INFO  c.a.customer.service.CustomerService - Performing advanced search with parameters - userName: jane_doe, name: null, phone: null, email: null, startDate: null, endDate: null
+2024-12-11 16:43:07 INFO  c.a.c.c.CustomerRestController - Number of customers found: 1
+2024-12-11 16:43:11 INFO  c.a.c.c.CustomerRestController - Deleting customer with ID: 1
+2024-12-11 16:43:11 INFO  c.a.customer.service.CustomerService - Fetching customer by ID: 1
+2024-12-11 16:43:11 INFO  c.a.customer.service.CustomerService - Deleting customer by ID: 1
+2024-12-11 16:43:11 INFO  c.a.c.c.CustomerRestController - Customer deleted with ID: 1
+2024-12-11 16:43:14 INFO  c.a.c.c.CustomerRestController - Creating customer with username: john_doe
+2024-12-11 16:43:14 INFO  c.a.customer.service.CustomerService - Saving customer: Customer(id=null, userName=john_doe, name=John Doe, phone=123456789, email=johndoe@example.com, startDate=2024-01-01, endDate=2024-12-31)
+2024-12-11 16:43:24 INFO  c.a.c.c.CustomerRestController - Creating customer with username: john_doe
+2024-12-11 16:43:24 INFO  c.a.customer.service.CustomerService - Saving customer: Customer(id=null, userName=john_doe, name=John Doe, phone=123456789, email=johndoe@example.com, startDate=2024-01-01, endDate=2024-12-31)
+2024-12-11 16:43:24 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2024-12-11 16:43:24 ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Violación de indice de Unicidad ó Clave primaria: "PUBLIC.UK_DWK6CX0AFU8BS9O4T536V1J5V_INDEX_5 ON PUBLIC.CUSTOMER(EMAIL NULLS FIRST) VALUES ( /* 2 */ 'johndoe@example.com' )"
+Unique index or primary key violation: "PUBLIC.UK_DWK6CX0AFU8BS9O4T536V1J5V_INDEX_5 ON PUBLIC.CUSTOMER(EMAIL NULLS FIRST) VALUES ( /* 2 */ 'johndoe@example.com' )"; SQL statement:
+insert into customer (email,end_date,name,phone,start_date,user_name,id) values (?,?,?,?,?,?,default) [23505-224]
+2024-12-11 16:43:24 ERROR c.a.customer.service.CustomerService - Data integrity violation while saving customer: could not execute statement [Violación de indice de Unicidad ó Clave primaria: "PUBLIC.UK_DWK6CX0AFU8BS9O4T536V1J5V_INDEX_5 ON PUBLIC.CUSTOMER(EMAIL NULLS FIRST) VALUES ( /* 2 */ 'johndoe@example.com' )"
+Unique index or primary key violation: "PUBLIC.UK_DWK6CX0AFU8BS9O4T536V1J5V_INDEX_5 ON PUBLIC.CUSTOMER(EMAIL NULLS FIRST) VALUES ( /* 2 */ 'johndoe@example.com' )"; SQL statement:
+insert into customer (email,end_date,name,phone,start_date,user_name,id) values (?,?,?,?,?,?,default) [23505-224]] [insert into customer (email,end_date,name,phone,start_date,user_name,id) values (?,?,?,?,?,?,default)]; SQL [insert into customer (email,end_date,name,phone,start_date,user_name,id) values (?,?,?,?,?,?,default)]; constraint ["PUBLIC.UK_DWK6CX0AFU8BS9O4T536V1J5V_INDEX_5 ON PUBLIC.CUSTOMER(EMAIL NULLS FIRST) VALUES ( /* 2 */ 'johndoe@example.com' )"; SQL statement:
+insert into customer (email,end_date,name,phone,start_date,user_name,id) values (?,?,?,?,?,?,default) [23505-224]]
+2024-12-11 16:43:24 ERROR c.a.c.c.CustomerRestController - Business rule exception while creating customer: El correo electrónico ya existe.
+2024-12-11 16:43:34 INFO  c.a.c.c.CustomerRestController - Updating customer with ID: 1
+2024-12-11 16:43:34 INFO  c.a.customer.service.CustomerService - Fetching customer by ID: 1
+2024-12-11 16:43:34 WARN  c.a.c.c.CustomerRestController - Customer with ID 1 not found
+2024-12-11 16:43:44 INFO  c.a.c.c.CustomerRestController - Updating customer with ID: 1
+2024-12-11 16:43:44 INFO  c.a.customer.service.CustomerService - Fetching customer by ID: 1
+2024-12-11 16:43:44 WARN  c.a.c.c.CustomerRestController - Customer with ID 1 not found
+2024-12-11 16:59:34 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 16:59:34 INFO  c.a.c.CustomerApplicationTests - Starting CustomerApplicationTests using Java 17.0.9 with PID 12860 (started by JRincon in D:\Documentos\NetBeansProjects\customer)
+2024-12-11 16:59:34 DEBUG c.a.c.CustomerApplicationTests - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-12-11 16:59:34 INFO  c.a.c.CustomerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 16:59:42 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 16:59:42 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-12-11 16:59:42 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 16:59:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 16:59:44 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-12-11 16:59:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 16:59:44 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-11 16:59:47 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 16:59:51 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 16:59:55 INFO  c.a.c.CustomerApplicationTests - Started CustomerApplicationTests in 21.673 seconds (process running for 24.97)
+2024-12-11 16:59:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 16:59:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 17:16:28 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 17:16:28 INFO  c.a.c.CustomerApplicationTests - Starting CustomerApplicationTests using Java 17.0.9 with PID 7588 (started by JRincon in D:\Documentos\NetBeansProjects\customer)
+2024-12-11 17:16:28 DEBUG c.a.c.CustomerApplicationTests - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-12-11 17:16:28 INFO  c.a.c.CustomerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 17:16:34 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 17:16:34 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-12-11 17:16:34 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 17:16:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 17:16:35 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-12-11 17:16:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 17:16:35 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-11 17:16:38 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 17:16:40 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 17:16:43 INFO  c.a.c.CustomerApplicationTests - Started CustomerApplicationTests in 15.733 seconds (process running for 18.745)
+2024-12-11 17:16:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 17:16:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 17:29:12 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 17:29:12 INFO  c.a.c.CustomerApplicationTests - Starting CustomerApplicationTests using Java 17.0.9 with PID 2136 (started by JRincon in D:\Documentos\NetBeansProjects\customer)
+2024-12-11 17:29:12 DEBUG c.a.c.CustomerApplicationTests - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-12-11 17:29:12 INFO  c.a.c.CustomerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 17:29:18 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 17:29:18 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-12-11 17:29:18 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 17:29:19 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 17:29:20 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-12-11 17:29:20 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 17:29:20 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-11 17:29:23 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 17:29:25 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 17:29:28 INFO  c.a.c.CustomerApplicationTests - Started CustomerApplicationTests in 17.864 seconds (process running for 21.063)
+2024-12-11 17:29:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 17:29:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 17:30:05 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 17:30:05 INFO  c.a.c.CustomerApplicationTests - Starting CustomerApplicationTests using Java 17.0.9 with PID 11176 (started by JRincon in D:\Documentos\NetBeansProjects\customer)
+2024-12-11 17:30:05 DEBUG c.a.c.CustomerApplicationTests - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-12-11 17:30:05 INFO  c.a.c.CustomerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 17:30:10 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 17:30:11 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-12-11 17:30:11 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 17:30:12 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 17:30:12 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-12-11 17:30:12 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 17:30:13 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-11 17:30:14 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 17:30:17 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 17:30:19 INFO  c.a.c.CustomerApplicationTests - Started CustomerApplicationTests in 15.088 seconds (process running for 17.496)
+2024-12-11 17:30:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 17:30:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 17:31:33 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 17:31:33 INFO  c.a.c.CustomerApplicationTests - Starting CustomerApplicationTests using Java 17.0.9 with PID 14916 (started by JRincon in D:\Documentos\NetBeansProjects\customer)
+2024-12-11 17:31:33 DEBUG c.a.c.CustomerApplicationTests - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-12-11 17:31:33 INFO  c.a.c.CustomerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 17:31:39 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 17:31:39 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-12-11 17:31:39 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 17:31:40 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 17:31:41 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-12-11 17:31:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 17:31:41 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-11 17:31:43 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 17:31:45 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 17:31:48 INFO  c.a.c.CustomerApplicationTests - Started CustomerApplicationTests in 16.478 seconds (process running for 19.079)
+2024-12-11 17:31:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 17:31:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 17:33:37 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 17:33:37 INFO  c.a.c.CustomerApplicationTests - Starting CustomerApplicationTests using Java 17.0.9 with PID 15220 (started by JRincon in D:\Documentos\NetBeansProjects\customer)
+2024-12-11 17:33:37 DEBUG c.a.c.CustomerApplicationTests - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-12-11 17:33:37 INFO  c.a.c.CustomerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 17:33:43 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 17:33:43 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-12-11 17:33:43 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 17:33:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 17:33:45 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-12-11 17:33:45 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 17:33:45 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-11 17:33:47 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 17:33:49 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 17:33:51 INFO  c.a.c.CustomerApplicationTests - Started CustomerApplicationTests in 15.763 seconds (process running for 19.734)
+2024-12-11 17:33:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 17:33:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 17:47:01 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 17:47:01 INFO  c.a.c.CustomerApplicationTests - Starting CustomerApplicationTests using Java 17.0.9 with PID 12848 (started by JRincon in D:\Documentos\NetBeansProjects\customer)
+2024-12-11 17:47:01 DEBUG c.a.c.CustomerApplicationTests - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-12-11 17:47:01 INFO  c.a.c.CustomerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 17:47:08 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 17:47:09 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-12-11 17:47:09 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 17:47:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 17:47:10 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-12-11 17:47:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 17:47:10 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-11 17:47:13 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 17:47:20 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 17:47:23 INFO  c.a.c.CustomerApplicationTests - Started CustomerApplicationTests in 23.38 seconds (process running for 28.242)
+2024-12-11 17:47:25 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 17:47:25 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 17:50:18 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 17:50:18 INFO  c.a.c.CustomerApplicationTests - Starting CustomerApplicationTests using Java 17.0.9 with PID 6456 (started by JRincon in D:\Documentos\NetBeansProjects\customer)
+2024-12-11 17:50:18 DEBUG c.a.c.CustomerApplicationTests - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-12-11 17:50:18 INFO  c.a.c.CustomerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 17:50:23 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 17:50:23 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-12-11 17:50:23 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 17:50:24 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 17:50:25 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-12-11 17:50:25 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 17:50:25 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-11 17:50:26 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 17:50:29 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 17:50:31 INFO  c.a.c.CustomerApplicationTests - Started CustomerApplicationTests in 14.719 seconds (process running for 18.307)
+2024-12-11 17:50:33 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 17:50:33 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 17:55:30 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 17:55:30 INFO  c.a.c.CustomerApplicationTests - Starting CustomerApplicationTests using Java 17.0.9 with PID 3304 (started by JRincon in D:\Documentos\NetBeansProjects\customer)
+2024-12-11 17:55:30 DEBUG c.a.c.CustomerApplicationTests - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-12-11 17:55:30 INFO  c.a.c.CustomerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 17:55:35 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 17:55:35 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-12-11 17:55:35 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 17:55:36 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 17:55:37 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-12-11 17:55:37 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 17:55:37 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-11 17:55:39 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 17:55:41 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 17:55:44 INFO  c.a.c.CustomerApplicationTests - Started CustomerApplicationTests in 14.942 seconds (process running for 17.925)
+2024-12-11 17:55:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 17:55:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 18:10:42 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 18:10:42 INFO  c.a.c.CustomerApplicationTests - Starting CustomerApplicationTests using Java 17.0.9 with PID 6860 (started by JRincon in D:\Documentos\NetBeansProjects\customer)
+2024-12-11 18:10:42 DEBUG c.a.c.CustomerApplicationTests - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-12-11 18:10:42 INFO  c.a.c.CustomerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 18:10:48 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 18:10:48 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-12-11 18:10:48 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 18:10:49 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 18:10:50 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-12-11 18:10:50 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 18:10:50 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-11 18:10:53 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 18:10:58 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 18:11:03 INFO  c.a.c.CustomerApplicationTests - Started CustomerApplicationTests in 21.981 seconds (process running for 25.174)
+2024-12-11 18:11:07 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 18:11:07 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 18:11:57 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 18:11:57 INFO  c.a.c.CustomerApplicationTests - Starting CustomerApplicationTests using Java 17.0.9 with PID 10752 (started by JRincon in D:\Documentos\NetBeansProjects\customer)
+2024-12-11 18:11:57 DEBUG c.a.c.CustomerApplicationTests - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-12-11 18:11:57 INFO  c.a.c.CustomerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 18:12:03 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 18:12:03 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-12-11 18:12:03 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 18:12:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 18:12:05 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-12-11 18:12:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 18:12:05 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-11 18:12:07 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 18:12:09 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 18:12:12 INFO  c.a.c.CustomerApplicationTests - Started CustomerApplicationTests in 15.354 seconds (process running for 18.025)
+2024-12-11 18:12:14 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 18:12:14 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 18:15:18 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 18:15:18 INFO  c.a.c.CustomerApplicationTests - Starting CustomerApplicationTests using Java 17.0.9 with PID 14016 (started by JRincon in D:\Documentos\NetBeansProjects\customer)
+2024-12-11 18:15:18 DEBUG c.a.c.CustomerApplicationTests - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-12-11 18:15:18 INFO  c.a.c.CustomerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 18:15:23 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 18:15:24 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-12-11 18:15:24 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 18:15:24 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 18:15:25 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-12-11 18:15:25 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 18:15:25 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-11 18:15:27 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 18:15:29 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 18:15:32 INFO  c.a.c.CustomerApplicationTests - Started CustomerApplicationTests in 14.896 seconds (process running for 17.631)
+2024-12-11 18:15:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 18:15:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 18:16:38 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 18:16:38 INFO  c.a.c.CustomerApplicationTests - Starting CustomerApplicationTests using Java 17.0.9 with PID 6520 (started by JRincon in D:\Documentos\NetBeansProjects\customer)
+2024-12-11 18:16:38 DEBUG c.a.c.CustomerApplicationTests - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-12-11 18:16:38 INFO  c.a.c.CustomerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 18:16:44 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 18:16:44 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-12-11 18:16:44 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 18:16:45 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 18:16:45 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-12-11 18:16:45 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 18:16:45 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-11 18:16:47 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 18:16:49 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 18:16:52 INFO  c.a.c.CustomerApplicationTests - Started CustomerApplicationTests in 15.108 seconds (process running for 17.797)
+2024-12-11 18:16:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 18:16:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
