@@ -41,7 +41,12 @@ Sigue estos pasos para clonar e instalar el proyecto en tu máquina local:
 
 2. **Configurar la Base de Datos**
 
-   La BD que requiere se configurara como base de datos para la API será la Dependencia H2 DataBase que permitirá guardar en memoria sin necesidad de instalar y conectar BD.
+   La BD que requiere se configurara como base de datos para la API será la Dependencia H2 DataBase que permitirá guardar en memoria sin necesidad de instalar y conectar BD:
+
+   ```bash
+      http://localhost:8080/h2-console/
+   ```
+
    Actualiza el archivo application.properties en el directorio src/main/resources/ con los detalles de la conexión a la base de datos:
 
    ```bash
@@ -155,7 +160,12 @@ Sigue estos pasos para clonar e instalar el proyecto en tu máquina local:
 
 ## Funcionalidades Implementadas y Plus+
 
-   Este proyecto incluye a demas de las pruebas Unitarias con JUnit (Pruebas TDD), el editor para diseñar su documentación de APIs (Swagger-UI) como Plus:
+   - Este proyecto incluye las pruebas Unitarias con JUnit (Pruebas TDD).
+   - Plus: Editor para diseñar su documentación de APIs (Swagger-UI):
+   
+   ```bash
+   http://localhost:8080/swagger-ui/
+   ```
 
 
 ¡Gracias por utilizar nuestra API REST para la administración de clientes! 😊🚀
